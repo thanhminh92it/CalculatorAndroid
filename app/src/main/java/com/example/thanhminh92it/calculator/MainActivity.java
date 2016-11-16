@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
                 // Perform action on click
                 int n1 = Integer.parseInt(number1.getText().toString());
                 int n2 = Integer.parseInt(number2.getText().toString());
-                int r = n1 / n2;
-                result.setText(Integer.toString(r));
+                float r = (float) n1 / n2;
+                result.setText(Float.toString(r));
             }
         });
     }
